@@ -2,6 +2,7 @@ def new_hash
   {}
 end
 
+<<<<<<< HEAD
 
 def actor
   actor = {
@@ -16,6 +17,18 @@ def monopoly
 	}
 end
 
+=======
+def actor
+  actor = {:name => 'Dwayne The Rock Johnson'}
+end
+
+def monopoly
+	monopoly = {:railroads => {}}
+end
+
+def monopoly_with_second_tier
+	monopoly = {:railroads => {}}
+>>>>>>> f2447e835141c9ef6e11032d02395b19bfcfd0f1
 
 def monopoly_with_second_tier
 	monopoly = {
